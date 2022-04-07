@@ -9,9 +9,9 @@ namespace TestGitHubVisual
     internal class Personne
     {
         public string Name { get; set; }
-        public Personne(string name)
+        public Personne(string nom)
         {
-            Name = name;
+            Name = nom;
         }
     }
 }
