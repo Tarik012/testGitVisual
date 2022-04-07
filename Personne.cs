@@ -8,5 +8,12 @@ namespace TestGitHubVisual
 {
     internal class Personne
     {
+        public string Name { get; set; }
+        public Personne(string name)
+        {
+            Name = name;
+        }
     }
 }
+
+
